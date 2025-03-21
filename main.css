@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+#container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #10416b;
+}
+
+
+.flex-container > div {
+    background-color: #378ad8;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+.stack > div {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.mainSection_L {
+    flex-grow: 3;
+    border: thick solid #f57d2c;
+}
+
+.mainSection_R {
+    flex-grow: 2;
+    border: thick solid #f57d2c;
+}
+
+.mainSection_R img{
+    visibility: hidden;
+}
+
+.musicSection_1 {
+    flex-grow: 3;
+    border: thick solid #f57d2c;
+}
+
+.musicSection_2 {
+    flex-grow: 2;
+    border: thick solid #f57d2c;
+}
+
+.musicSection_3 {
+    flex-grow: 2;
+    border: thick solid #f57d2c;
+}
+
+.contactSection_1 {
+    flex-grow: 3;
+    border: thick solid #f57d2c;
+}
+
+.contactSection_2 {
+    flex-grow: 3;
+    border: thick solid #f57d2c;
+}
+
+.contactSection_3 {
+    flex-grow: 3;
+    border: thick solid #f57d2c;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #8A1327;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #138a76;
+    text-align: center;
+    font-size: 2em;
+    padding: 15px 10px 10px 10px;
+
+    
+    li {
+        display: inline;
+        padding: 8px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li a {
+        display: inline;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+   li a:hover {
+        background-color: #0f695a;
+    }
+
+   .active {
+        background-color: #0cd827;
+    }
+
+}
+
+footer{
+    clear: both;
+    height: 75px;
+    background-color: rgb(54, 189, 42);
+    text-align: center;
+    padding: 25px;
+}
+
+.irish-grover-regular {
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.gorditas-regular {
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.submitbutton {
+    background-color: #138a76;   
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 50%;
+}

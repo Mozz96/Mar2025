@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Musical Sampler Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="main.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Irish+Grover&display=swap" rel="stylesheet">
+    
+        <style>
+            
+            table {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #000000;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #378ad8;
+            }
+
+            tr:nth-child(odd) {
+              background-color: #f57d2c;
+            } 
+            
+        </style>
+    
+    </head>
+    
+    <body>
+        <div id="container"> 
+            <header><h1 class="irish-grover-regular">Here's Some of My Music!</h1></header> 
+
+            <nav class="navlist">
+                <ul>
+                    <li class="gorditas-regular"><a href="index.html">Home</a></li>
+                    <li class="gorditas-regular"><a class="active" href="musicalsamplerplatter.html">Music</a></li>
+                    <li class="gorditas-regular"><a href="contactme.html">Contact</a></li>   
+                </ul>   
+            </nav>
+
+            <div class="flex-container">
+                
+                <div class="musicSection_1">
+                <h1 class="gorditas-regular">A Few Pieces I Think You'd Enjoy! &#127900;</h1>
+
+                <table class="tables">
+                    <tr>
+                      <th>Composition Title</th>
+                      <th>Genre</th>
+                      <th>Link</th>
+                    </tr>
+        
+                    <tr>
+                      <td>"No Cause For Alarm"</td>
+                      <td>Latin, Funk</td>
+                      <td><a href="https://youtu.be/O3Fp0jGANMg">YouTube</a></td>
+                    </tr>
+        
+                    <tr>
+                      <td>Ebb and Flow - The Calm Coastal Village</td>
+                      <td>Classical, Piano</td>
+                      <td><a href="https://youtu.be/58yJBdMMVZE">YouTube</a></td>
+                    </tr>
+                    
+                    <tr>
+                      <td>Time's End - Final Echoes of a Proud Civilization</td>
+                      <td>Classical, Orchestral</td>
+                      <td><a href="https://youtu.be/GDUMUI58MNQ">YouTube</a></td>
+                    </tr>
+        
+                    <tr>
+                      <td>Frostbite - The Underground Fortress of Ice</td>
+                      <td>Classical, Orchestral</td>
+                      <td><a href="https://youtu.be/9mZ2YmdTH-s">YouTube</a></td>
+                    </tr>
+                  </table>
+
+                  <p class="gorditas-regular">These are only a select few of my favorites I've made, going in chronological order, listen to them in this order to see how far I've come!
+                    <ol>
+                      <li class="gorditas-regular">No Cause For Alarm</li>
+                      <li class="gorditas-regular">Ebb & Flow</li>
+                      <li class="gorditas-regular">Time's End</li>
+                      <li class="gorditas-regular">Frostbite</li>
+                    </ol> 
+                  </p>
+                </div>
+
+                <div class="musicSection_2">
+                    <h2 class="gorditas-regular">Sample Piece: Ebb and Flow - The Calm Coastal Village</h2>
+                    
+                    <p class="gorditas-regular">"You come across a village on the coast, calm and thriving; a rare opportunity to resupply for the journey ahead."</p>
+
+                    <audio controls>
+                    <source src="assets/sounds/ebbandflow.mp3" type="audio/mpeg">
+
+                    </audio>
+
+                </div>
+
+                <div class="musicSection_3">
+                    <h2 class="gorditas-regular">My Latest Piece (As of March 2025, more incoming!&#128064;)</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KQtaPHBy19A?si=a00hWaJl261FcXlP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+                    <p class="gorditas-regular">Although it's been a long time since I've uploaded music, I'm still creating to this very day!</p>
+                    <p class="gorditas-regular">In the near future I plan to do quite a few things musically, such as:
+                      <ul>
+                        <li class="gorditas-regular">Upload all of my current pieces onto music platform.</li>
+                        <li class="gorditas-regular">Plan and compose new pieces before summer starts.</li>
+                        <li class="gorditas-regular">Record musical covers of existing songs, using my own arrangements and vocals.</li>
+                      </ul>
+                    </p>
+                    
+                    <p id="demo" class="gorditas-regular"></p>
+                    <script>
+                      document.getElementById("demo").innerHTML = "So Stay Tuned!";
+                    </script>
+
+                </div>
+
+                  
+
+
+
+            </div>
+            <footer class="irish-grover-regular">Copyright© Jeremy Inc. 2025</footer>
+
+    </body>
+</html>
