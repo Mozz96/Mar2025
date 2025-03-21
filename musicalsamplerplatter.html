@@ -11,6 +11,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Irish+Grover&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+        <script>
+        $( function() {
+          $( "#accordion" ).accordion();
+        } );
+        </script>
     
         <style>
             
@@ -109,10 +118,40 @@
 
                 </div>
 
+                
+
                 <div class="musicSection_3">
                     <h2 class="gorditas-regular">My Latest Piece (As of March 2025, more incoming!&#128064;)</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/KQtaPHBy19A?si=a00hWaJl261FcXlP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
+                    
+                    <h3 class="gorditas-regular">Some of my past works include:</h3>
+                    <div id="accordion">
+                      <h3 class="gorditas-regular">Mayhem! - Holding Fast in the Heart of the Maelstrom</h3>
+                      <div>
+                        <p>
+                        One of my first attempts at using multiple instruments to create a piece, Mayhem is a boss battle theme for a fictional game I had in mind while writing. While the game hasn't come to fruition (yet), this song still holds up well!
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nhdhdPS-qP4?si=Y8euwXlX4kZxviTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                      <h3 class="gorditas-regular">Against All Odds, Let Loose! - A Mini Piano Medley</h3>
+                      <div>
+                        <p>
+                        A bombastic piano-only piece that features several pianos playing in harmony, picturing a battle that's being turned in the listener's favor.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NwKVe-A7SbE?si=EU3k9IahugrrcQVT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                      <h3 class="gorditas-regular">Verdant Trees, Shining Beacon - Taiga Castle Mini-Suite</h3>
+                      <div>
+                        <p>
+                        A collaborative piece with my younger brother who composes as well, this piece evokes the sounds of a brisk taiga forest!
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7IrFEJ7uzUc?si=2fmALHNLm5DDQQUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                    
+                    </div>
+                     
+
                     <p class="gorditas-regular">Although it's been a long time since I've uploaded music, I'm still creating to this very day!</p>
                     <p class="gorditas-regular">In the near future I plan to do quite a few things musically, such as:
                       <ul>
@@ -122,11 +161,15 @@
                       </ul>
                     </p>
                     
+                    
+
                     <p id="demo" class="gorditas-regular"></p>
                     <script>
                       document.getElementById("demo").innerHTML = "So Stay Tuned!";
                     </script>
 
+
+                    
                 </div>
 
                   
