@@ -153,3 +153,14 @@ footer{
     font-size: 1em;
     border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+ 
+    header nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+}
