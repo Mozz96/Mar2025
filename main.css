@@ -168,5 +168,13 @@ footer{
 
     }
 
+    #container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    header {
+        font-size: 1.75rem;
+    } 
     
 }
